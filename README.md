@@ -1,0 +1,4 @@
+odfpy
+=====
+
+Odfpy aims to be a complete API for OpenDocument in Python. Unlike other more convenient APIs, this one is essentially an abstraction layer just above the XML format. Odfpy is a library to read and write OpenDocument v. 1.1 files. The main focus has been to prevent the programmer from creating invalid documents. It has checks that raise an exception if the programmer adds an invalid element, adds an attribute unknown to the grammar, forgets to add a required attribute or adds text to an element that doesn\'t allow it. These checks and the API itself were generated from the RelaxNG schema, and then hand-edited. Therefore the API is complete and can handle all ODF constructions, but could be improved in its understanding of data types. Take a look at the Getting Started page then consult the Reference Manual.
